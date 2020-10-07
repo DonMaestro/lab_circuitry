@@ -1,0 +1,57 @@
+C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/nco/nco_tb.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/nco/nco_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/counter/counter_tb.v {1 {vlog -work work -stats=none {C:\Users\don\Documents\KPI\Circuitry\lab2_m\hw\counter\counter_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/triangle_gen/triangle_gen.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/triangle_gen/triangle_gen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module triangle_gen
+
+Top level modules:
+	triangle_gen
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/triangle_gen/triangle_gen_tb.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/triangle_gen/triangle_gen_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/simple_sin_gen/sin_gen.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/simple_sin_gen/sin_gen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sin_gen
+
+Top level modules:
+	sin_gen
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/counter/counter.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/counter/counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/simple_sin_gen/sin_gen_tb.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/simple_sin_gen/sin_gen_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/nco/nco.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/nco/nco.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module nco
+
+Top level modules:
+	nco
+
+} {} {}}
