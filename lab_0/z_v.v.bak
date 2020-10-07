@@ -1,0 +1,21 @@
+module logic_elements(SW, LEDR);
+
+input   [7:0]   SW;
+output  [9:0]   LEDR;
+
+wire    [9:0]   z;
+wire    [9:0]   y;
+wire    [9:0]   x;
+
+assign LEDR = z;
+assign x = SW;
+
+assign y[5] = x[0] ^ x[1];
+
+assign y[4] = ~(x[0] | x[1]);
+
+
+
+assign y[9:6] = 4'b1010;
+
+endmodule

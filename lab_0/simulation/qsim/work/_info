@@ -1,0 +1,214 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/don/Documents/KPI/Circuitry/lab_0/simulation/qsim
+vhard_block
+!s110 1599113596
+!i10b 1
+!s100 moQiiG1Z0d`BF5WdMUJZX2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9fYOPK6?dnGm8P1?nJCVQ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1599113595
+Z3 8lab_0.vo
+Z4 Flab_0.vo
+!i122 12
+L0 529 45
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1599113596.000000
+Z6 !s107 lab_0.vo|
+Z7 !s90 -work|work|lab_0.vo|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+vlogic_elements
+Z10 !s110 1599982687
+!i10b 1
+!s100 n:]7Yj4D;XBTOhPzG_=j:1
+R1
+InXV^9DPdmTZKKc?lnQP0:3
+R2
+R0
+w1599982686
+R3
+R4
+!i122 82
+L0 32 422
+R5
+r1
+!s85 0
+31
+Z11 !s108 1599982687.000000
+R6
+R7
+!i113 1
+R8
+R9
+Elogic_elements_vhd_vec_tst
+Z12 w1599719690
+Z13 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 19
+R0
+Z15 8Waveform.vwf.vht
+Z16 FWaveform.vwf.vht
+l0
+L32 1
+VAKK56i`V0GnBFMj;09jXf3
+!s100 T76=Nb_74cKkM_>Rza1M>3
+Z17 OV;C;2020.1;71
+32
+Z18 !s110 1599719692
+!i10b 1
+Z19 !s108 1599719692.000000
+Z20 !s90 -work|work|Waveform.vwf.vht|
+Z21 !s107 Waveform.vwf.vht|
+!i113 1
+R8
+Z22 tExplicit 1 CvgOpt 0
+Alogic_elements_arch
+R13
+R14
+DEx4 work 26 logic_elements_vhd_vec_tst 0 22 AKK56i`V0GnBFMj;09jXf3
+!i122 19
+l45
+L34 91
+V3^WBZa2]NMXz8[AO3E?BG3
+!s100 7Gba5M0;PjchFJ_X;ijf11
+R17
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R8
+R22
+vlogic_elements_vlg_vec_tst
+R10
+!i10b 1
+!s100 jn`mAQkW4SO6AckSi6lDQ1
+R1
+I`H9n;Q9e[5lVQigU1j3zz0
+R2
+R0
+w1599982685
+8logic_w.vwf.vt
+Flogic_w.vwf.vt
+!i122 83
+L0 30 68
+R5
+r1
+!s85 0
+31
+R11
+!s107 logic_w.vwf.vt|
+!s90 -work|work|logic_w.vwf.vt|
+!i113 1
+R8
+R9
+vz_7
+Z23 !s110 1600344092
+!i10b 1
+!s100 k?CQnLW4[J8PEg:iP]:e81
+R1
+IXGRfz<HP20XEgZb:f@>OA2
+R2
+R0
+w1600344091
+R3
+R4
+!i122 88
+L0 32 220
+R5
+r1
+!s85 0
+31
+Z24 !s108 1600344092.000000
+R6
+R7
+!i113 1
+R8
+R9
+vz_7_vlg_vec_tst
+R23
+!i10b 1
+!s100 6iUzkHWkzKB?9WU?lK`CZ0
+R1
+IJSZEedZ`Tj^M]hM=Gn?000
+R2
+R0
+w1600344090
+8z_7_w.vwf.vt
+Fz_7_w.vwf.vt
+!i122 89
+L0 30 93
+R5
+r1
+!s85 0
+31
+R24
+!s107 z_7_w.vwf.vt|
+!s90 -work|work|z_7_w.vwf.vt|
+!i113 1
+R8
+R9
+vzzz
+Z25 !s110 1600348368
+!i10b 1
+!s100 5aYV@JA_KDl@LD;E2d<HQ1
+R1
+I91KBIh=AC1>f]I<_QD8ci3
+R2
+R0
+w1600348367
+R3
+R4
+!i122 108
+L0 32 372
+R5
+r1
+!s85 0
+31
+Z26 !s108 1600348368.000000
+R6
+R7
+!i113 1
+R8
+R9
+vzzz_vlg_vec_tst
+R25
+!i10b 1
+!s100 gQ1Tc[_?YVmTR=>5SnB_72
+R1
+ICced2KbQMFm=33imGoPmb1
+R2
+R0
+w1600348366
+8zzz.vwf.vt
+Fzzz.vwf.vt
+!i122 109
+L0 30 851
+R5
+r1
+!s85 0
+31
+R26
+!s107 zzz.vwf.vt|
+!s90 -work|work|zzz.vwf.vt|
+!i113 1
+R8
+R9
