@@ -1,0 +1,85 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'altera_reserved_tck'
+Slack : 9.978
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 30.454
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'altera_reserved_tck'
+Slack : 0.801
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.085
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'altera_reserved_tck'
+Slack : 10.045
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 30.556
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.748
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.074
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'altera_reserved_tck'
+Slack : 13.101
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.039
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 31.301
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'altera_reserved_tck'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 14.776
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'altera_reserved_tck'
+Slack : 13.499
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.026
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 31.489
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 14.742
+TNS   : 0.000
+
+------------------------------------------------------------

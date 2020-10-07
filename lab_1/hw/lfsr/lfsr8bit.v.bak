@@ -1,0 +1,25 @@
+module lfsr10bit(CLOCK_50, KEY, SW, LEDR);
+
+input				 CLOCK_50;
+input   [1:0]   KEY;
+input   [7:0]   SW;
+output  [7:0]   LEDR;
+
+reg     [7:0]   lfsr;
+
+wire            clk = KEY[0];
+wire            rst_n = KEY[1];
+
+wire    lfsr_lsb = ~(lfsr[7] ^ lfsr[4]);
+
+assign LEDR = lfsr;
+
+always @(posedge clk, negedge rst_n) begin
+    if (~rst_n) begin
+        lfsr <= 0;
+    end else begin
+        lfsr <= {lfsr[6:0], lfsr_lsb};
+    end
+end
+
+endmodule

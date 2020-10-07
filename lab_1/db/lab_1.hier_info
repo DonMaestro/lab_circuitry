@@ -1,0 +1,44 @@
+|shift_reg
+CLOCK_50 => ~NO_FANOUT~
+KEY[0] => shift_reg[0].CLK
+KEY[0] => shift_reg[1].CLK
+KEY[0] => shift_reg[2].CLK
+KEY[0] => shift_reg[3].CLK
+KEY[0] => shift_reg[4].CLK
+KEY[0] => shift_reg[5].CLK
+KEY[0] => shift_reg[6].CLK
+KEY[0] => shift_reg[7].CLK
+KEY[0] => shift_reg[8].CLK
+KEY[0] => shift_reg[9].CLK
+KEY[1] => shift_reg[0].ACLR
+KEY[1] => shift_reg[1].ACLR
+KEY[1] => shift_reg[2].ACLR
+KEY[1] => shift_reg[3].ACLR
+KEY[1] => shift_reg[4].ACLR
+KEY[1] => shift_reg[5].ACLR
+KEY[1] => shift_reg[6].ACLR
+KEY[1] => shift_reg[7].ACLR
+KEY[1] => shift_reg[8].ACLR
+KEY[1] => shift_reg[9].ACLR
+SW[0] => shift_reg[0].DATAIN
+SW[1] => ~NO_FANOUT~
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+LEDR[0] <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= shift_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= shift_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= shift_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= shift_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] <= shift_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[6] <= shift_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[7] <= shift_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[8] <= shift_reg[8].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[9] <= shift_reg[9].DB_MAX_OUTPUT_PORT_TYPE
+
+
