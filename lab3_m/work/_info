@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/don/Documents/KPI/Circuitry/lab3_m
+vconst_div
+Z1 !s110 1603918313
+!i10b 1
+!s100 RE<V1cGzQ=K^VdQ@7XSj12
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8P]n?`28;gF@`[1j53R`[2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1603917814
+8hw/const_div1/const_div.v
+Fhw/const_div1/const_div.v
+!i122 0
+L0 1 30
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1603918313.000000
+!s107 hw/const_div1/const_div_tb.v|hw/const_div1/const_div.v|
+Z6 !s90 -reportprogress|300|hw/const_div1/const_div.v|hw/const_div1/const_div_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vtestbench
+R1
+!i10b 1
+!s100 :WEknkB<IFV@:@mFkPd=i2
+R2
+IMb=3j6NhgmnzPbkM:aMjZ2
+R3
+R0
+w1603917815
+8hw/const_div1/const_div_tb.v
+Fhw/const_div1/const_div_tb.v
+!i122 0
+L0 3 32
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 hw/const_div1/const_div_tb.v|hw/const_div1/const_div.v|
+R6
+!i113 1
+R7

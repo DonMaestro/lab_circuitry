@@ -1,0 +1,139 @@
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:44:22 on Oct 28,2020
+# vlog -reportprogress 300 hwprog_divprog_div.v hwprog_divprog_div_tb.v 
+# ** Error: (vlog-7) Failed to open design unit file "hwprog_divprog_div.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 22:44:22 on Oct 28,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro C:\Users\don\Documents\KPI\Circuitry\lab3_m\hw\prog_div\sim.do line 14
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog  hw\prog_div\prog_div.v hw\prog_div\prog_div_tb.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:45:54 on Oct 28,2020
+# vlog -reportprogress 300 hw/prog_div/prog_div.v hw/prog_div/prog_div_tb.v 
+# -- Compiling module prog_div
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:45:54 on Oct 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 22:45:54 on Oct 28,2020
+# Loading work.testbench
+# Loading work.prog_div
+# ** Note: $finish    : hw/prog_div/prog_div_tb.v(41)
+#    Time: 52377820 ns  Iteration: 1  Instance: /testbench
+# 1
+# Break in Module testbench at hw/prog_div/prog_div_tb.v line 41
+# 0 ps
+# 54996711 ns
+quit -sim
+# End time: 22:47:15 on Oct 28,2020, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 14
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:55 on Oct 28,2020
+# vlog -reportprogress 300 hw/prog_div/prog_div.v hw/prog_div/prog_div_tb.v 
+# -- Compiling module prog_div
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:47:55 on Oct 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 22:47:55 on Oct 28,2020
+# Loading work.testbench
+# Loading work.prog_div
+# ** Note: $finish    : hw/prog_div/prog_div_tb.v(41)
+#    Time: 52377820 ns  Iteration: 1  Instance: /testbench
+# 1
+# Break in Module testbench at hw/prog_div/prog_div_tb.v line 41
+# 0 ps
+# 54996711 ns
+quit -sim
+# End time: 22:48:32 on Oct 28,2020, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:50:56 on Oct 28,2020
+# vlog -reportprogress 300 hw/one_hot_div/one_hot_div.v hw/one_hot_div/one_hot_div_tb.v 
+# -- Compiling module one_hot_div
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:50:57 on Oct 28,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 22:50:57 on Oct 28,2020
+# Loading work.testbench
+# Loading work.one_hot_div
+# ** Note: $finish    : hw/one_hot_div/one_hot_div_tb.v(31)
+#    Time: 420 ns  Iteration: 1  Instance: /testbench
+# 1
+# Break in Module testbench at hw/one_hot_div/one_hot_div_tb.v line 31
+# 0 ps
+# 441 ns
+quit -sim
+# End time: 22:51:34 on Oct 28,2020, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:51:37 on Oct 28,2020
+# vlog -reportprogress 300 hw/const_div2/const_div.v hw/const_div2/const_div_tb.v 
+# -- Compiling module const_div
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:51:37 on Oct 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 22:51:37 on Oct 28,2020
+# Loading work.testbench
+# Loading work.const_div
+# ** Note: $finish    : hw/const_div2/const_div_tb.v(31)
+#    Time: 620 ns  Iteration: 1  Instance: /testbench
+# 1
+# Break in Module testbench at hw/const_div2/const_div_tb.v line 31
+# 0 ps
+# 651 ns
+quit -sim
+# End time: 22:51:51 on Oct 28,2020, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:51:53 on Oct 28,2020
+# vlog -reportprogress 300 hw/const_div1/const_div.v hw/const_div1/const_div_tb.v 
+# -- Compiling module const_div
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:51:53 on Oct 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 22:51:53 on Oct 28,2020
+# Loading work.testbench
+# Loading work.const_div
+# ** Note: $finish    : hw/const_div1/const_div_tb.v(31)
+#    Time: 620 ns  Iteration: 1  Instance: /testbench
+# 1
+# Break in Module testbench at hw/const_div1/const_div_tb.v line 31
+# 0 ps
+# 651 ns
+quit -sim
+# End time: 22:52:08 on Oct 28,2020, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 1
