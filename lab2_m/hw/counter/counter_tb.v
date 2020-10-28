@@ -7,7 +7,7 @@ parameter PERIOD = 20;
 reg         i_clk, i_rst_n;
 wire [9:0]  o_cnt_dat;
 
-counter cnt_inst(.MAX10_CLK1_50(i_clk), 
+counter cnt_inst(.CLOCK_50(i_clk), 
                     .KEY ({i_rst_n, 1'b0}), 
                     .LEDR (o_cnt_dat)
                 );

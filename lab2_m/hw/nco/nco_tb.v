@@ -6,9 +6,9 @@ parameter PERIOD = 20;
 
 reg         i_clk, i_rst_n;
 reg  [9:0]  i_freq_step;
-wire [3:0]  o_dac;
+wire [9:0]  o_dac;
 
-nco  nco_inst(.MAX10_CLK1_50 (i_clk), 
+nco  nco_inst(.CLOCK_50 (i_clk), 
                 .KEY ({i_rst_n, 1'b0}),
                 .SW (i_freq_step), 
                 .VGA_R (o_dac)

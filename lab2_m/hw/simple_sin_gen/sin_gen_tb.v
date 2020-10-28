@@ -5,9 +5,9 @@ module testbench;
 parameter PERIOD = 20;
 
 reg         i_clk, i_rst_n;
-wire [3:0]  o_dac;
+wire [7:0]  o_dac;
 
-sin_gen  gen_inst(.MAX10_CLK1_50 (i_clk), 
+sin_gen  gen_inst(.CLOCK_50 (i_clk), 
                     .KEY ({i_rst_n, 1'b0}), 
                     .VGA_R (o_dac)
                     );

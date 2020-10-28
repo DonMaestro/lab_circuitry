@@ -9,47 +9,118 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/don/Documents/KPI/Circuitry/lab2_m
-vsin_gen
-Z1 !s110 1602102051
+vcounter
+Z1 !s110 1603902616
 !i10b 1
-!s100 h?K9ngSDma<JaWC3bW`FX1
+!s100 83Q]BXZO9_]:kBcl;;R]`1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-ICNV0VNNdm0iiea3=<AKYQ3
+IHRV8QS_FQD1He68oE3aM@0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1602101251
-8hw/simple_sin_gen/sin_gen.v
-Fhw/simple_sin_gen/sin_gen.v
-!i122 0
-L0 1 29
+w1603902606
+8C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/counter/counter.v
+FC:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/counter/counter.v
+!i122 3
+L0 1 23
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1602102051.000000
-!s107 hw/simple_sin_gen/sin_gen_tb.v|hw/simple_sin_gen/sin_gen.v|
-Z6 !s90 -reportprogress|300|hw/simple_sin_gen/sin_gen.v|hw/simple_sin_gen/sin_gen_tb.v|
+Z5 !s108 1603902616.000000
+!s107 C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/counter/counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/counter/counter.v|
 !i113 1
+Z6 o-work work
 Z7 tCvgOpt 0
+vnco
+!s110 1603902615
+!i10b 1
+!s100 ?;LnN?>5i41B5Ob73d_^F0
+R2
+I>d6<aFclD^eLWLfn2_X]:0
+R3
+R0
+w1603902433
+8C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/nco/nco.v
+FC:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/nco/nco.v
+!i122 1
+L0 1 39
+R4
+r1
+!s85 0
+31
+!s108 1603902615.000000
+!s107 C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/nco/nco.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/nco/nco.v|
+!i113 1
+R6
+R7
+vsin_gen
+R1
+!i10b 1
+!s100 ^SB2K=Y=[bLb1Pb=X=2[40
+R2
+IPjEDGAzIXzDWgZA:IilYI2
+R3
+R0
+w1603900961
+8C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/simple_sin_gen/sin_gen.v
+FC:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/simple_sin_gen/sin_gen.v
+!i122 5
+L0 1 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/simple_sin_gen/sin_gen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/simple_sin_gen/sin_gen.v|
+!i113 1
+R6
+R7
 vtestbench
 R1
 !i10b 1
-!s100 LKmEJf2IIlRZ:U^;^S4NN3
+!s100 4PPH2Q1ZY71c7L2]B7HE@0
 R2
-IKSFIk?@Ci4ZAO_<_zkz7H2
+IY:Y8oN@oN4kIMG3iZCPm32
 R3
 R0
-w1574117865
-8hw/simple_sin_gen/sin_gen_tb.v
-Fhw/simple_sin_gen/sin_gen_tb.v
-!i122 0
+w1603902301
+8C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/triangle_gen/triangle_gen_tb.v
+FC:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/triangle_gen/triangle_gen_tb.v
+!i122 8
 L0 3 28
 R4
 r1
 !s85 0
 31
 R5
-Z8 !s107 hw/simple_sin_gen/sin_gen_tb.v|hw/simple_sin_gen/sin_gen.v|
-R6
+!s107 C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/triangle_gen/triangle_gen_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/triangle_gen/triangle_gen_tb.v|
 !i113 1
+R6
+R7
+vtriangle_gen
+R1
+!i10b 1
+!s100 iIhdm1dh7lS7JiUj?j>ni1
+R2
+IGWlGamTal[k2D6_gTM;Hl3
+R3
+R0
+w1603902302
+8C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/triangle_gen/triangle_gen.v
+FC:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/triangle_gen/triangle_gen.v
+!i122 7
+L0 1 33
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/triangle_gen/triangle_gen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/don/Documents/KPI/Circuitry/lab2_m/hw/triangle_gen/triangle_gen.v|
+!i113 1
+R6
 R7

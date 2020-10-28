@@ -1,0 +1,34 @@
+|sin_gen
+CLOCK_50 => phase[0].CLK
+CLOCK_50 => phase[1].CLK
+CLOCK_50 => phase[2].CLK
+CLOCK_50 => phase[3].CLK
+CLOCK_50 => phase[4].CLK
+CLOCK_50 => phase[5].CLK
+CLOCK_50 => phase[6].CLK
+CLOCK_50 => phase[7].CLK
+CLOCK_50 => phase[8].CLK
+CLOCK_50 => phase[9].CLK
+CLOCK_50 => dac_data[0].CLK
+CLOCK_50 => dac_data[1].CLK
+CLOCK_50 => dac_data[2].CLK
+CLOCK_50 => dac_data[3].CLK
+CLOCK_50 => VGA_CLK.DATAIN
+KEY[0] => ~NO_FANOUT~
+KEY[1] => phase[0].ACLR
+KEY[1] => phase[1].ACLR
+KEY[1] => phase[2].ACLR
+KEY[1] => phase[3].ACLR
+KEY[1] => phase[4].ACLR
+KEY[1] => phase[5].ACLR
+KEY[1] => phase[6].ACLR
+KEY[1] => phase[7].ACLR
+KEY[1] => phase[8].ACLR
+KEY[1] => phase[9].ACLR
+VGA_R[0] <= dac_data[0].DB_MAX_OUTPUT_PORT_TYPE
+VGA_R[1] <= dac_data[1].DB_MAX_OUTPUT_PORT_TYPE
+VGA_R[2] <= dac_data[2].DB_MAX_OUTPUT_PORT_TYPE
+VGA_R[3] <= dac_data[3].DB_MAX_OUTPUT_PORT_TYPE
+VGA_CLK <= CLOCK_50.DB_MAX_OUTPUT_PORT_TYPE
+
+

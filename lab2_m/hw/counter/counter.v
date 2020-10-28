@@ -1,12 +1,12 @@
-module counter(MAX10_CLK1_50, KEY, LEDR);
+module counter(CLOCK_50, KEY, LEDR);
 
-input           MAX10_CLK1_50;
+input           CLOCK_50;
 input   [1:0]   KEY;
 output  [9:0]   LEDR;
 
 reg     [9:0] cnt;
 
-wire    sys_clk     = MAX10_CLK1_50;
+wire    sys_clk     = CLOCK_50;
 wire    sys_rst_n   = KEY[1];
 
 assign LEDR = cnt;

@@ -24,7 +24,7 @@ vsim work.testbench
 add wave /testbench/i_clk
 add wave /testbench/i_rst_n
 #add wave /testbench/i_freq_step
-add wave -format Analog-Step -height 84 -max 15.0 -radix unsigned /testbench/o_dac
+add wave -format Analog-Step -height 84 -max 255.0 -radix unsigned /testbench/o_dac
 
 onbreak resume
 
