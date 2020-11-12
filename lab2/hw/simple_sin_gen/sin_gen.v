@@ -15,7 +15,7 @@ wire    sys_rst_n   = KEY[1];
 assign  VGA_R = dac_data;   
 assign  VGA_CLK = CLOCK_50;
 
-initial $readmemh("hw/simple/sin_gen/sin_table_8bit.hex", sin_table_rom);
+initial $readmemh("hw/simple_sin_gen/sin_table_8bit.hex", sin_table_rom);
 
 always @(posedge sys_clk)
     dac_data <= sin_table_rom[phase];

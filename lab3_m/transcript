@@ -9,131 +9,337 @@
 # Compile of one_hot_div_tb.v was successful.
 # Compile of prog_div.v was successful.
 # Compile of prog_div_tb.v was successful.
-# 11 compiles, 0 failed with no errors.
+# Compile of nco.v failed with 3 errors.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 1 failed with 3 errors.
+# Error opening C:/Users/don/Documents/KPI/Circuitry/lab3_m/(vlog-13069) C:/Users/don/Documents/KPI/Circuitry/lab3_m/hw/nco/nco.v
+# Path name 'C:/Users/don/Documents/KPI/Circuitry/lab3_m/(vlog-13069) C:/Users/don/Documents/KPI/Circuitry/lab3_m/hw/nco/nco.v' doesn't exist.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# Compile of nco.v failed with 3 errors.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 1 failed with 3 errors.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# Compile of nco.v failed with 2 errors.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 1 failed with 2 errors.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# Compile of nco.v failed with 2 errors.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 1 failed with 2 errors.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# Compile of nco.v was successful.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 0 failed with no errors.
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:44:22 on Oct 28,2020
-# vlog -reportprogress 300 hwprog_divprog_div.v hwprog_divprog_div_tb.v 
-# ** Error: (vlog-7) Failed to open design unit file "hwprog_divprog_div.v" in read mode.
-# No such file or directory. (errno = ENOENT)
-# End time: 22:44:22 on Oct 28,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
-# Error in macro C:\Users\don\Documents\KPI\Circuitry\lab3_m\hw\prog_div\sim.do line 14
-# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
-#     while executing
-# "vlog  hw\prog_div\prog_div.v hw\prog_div\prog_div_tb.v"
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:45:54 on Oct 28,2020
-# vlog -reportprogress 300 hw/prog_div/prog_div.v hw/prog_div/prog_div_tb.v 
-# -- Compiling module prog_div
+# Start time: 19:36:39 on Nov 11,2020
+# vlog -reportprogress 300 hw/nco/nco.v hw/nco/nco_tb.v 
+# -- Compiling module nco
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 22:45:54 on Oct 28,2020, Elapsed time: 0:00:00
+# End time: 19:36:39 on Nov 11,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim work.testbench 
-# Start time: 22:45:54 on Oct 28,2020
+# Start time: 19:36:39 on Nov 11,2020
 # Loading work.testbench
-# Loading work.prog_div
-# ** Note: $finish    : hw/prog_div/prog_div_tb.v(41)
-#    Time: 52377820 ns  Iteration: 1  Instance: /testbench
+# Loading work.nco
+# ** Note: $finish    : hw/nco/nco_tb.v(35)
+#    Time: 150000020 ns  Iteration: 1  Instance: /testbench
 # 1
-# Break in Module testbench at hw/prog_div/prog_div_tb.v line 41
+# Break in Module testbench at hw/nco/nco_tb.v line 35
 # 0 ps
-# 54996711 ns
+# 157500021 ns
 quit -sim
-# End time: 22:47:15 on Oct 28,2020, Elapsed time: 0:01:21
-# Errors: 0, Warnings: 14
+# End time: 19:39:35 on Nov 11,2020, Elapsed time: 0:02:56
+# Errors: 0, Warnings: 6
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# Compile of nco.v was successful.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 0 failed with no errors.
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:47:55 on Oct 28,2020
-# vlog -reportprogress 300 hw/prog_div/prog_div.v hw/prog_div/prog_div_tb.v 
-# -- Compiling module prog_div
+# Start time: 19:40:23 on Nov 11,2020
+# vlog -reportprogress 300 hw/nco/nco.v hw/nco/nco_tb.v 
+# -- Compiling module nco
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 22:47:55 on Oct 28,2020, Elapsed time: 0:00:00
+# End time: 19:40:23 on Nov 11,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim work.testbench 
-# Start time: 22:47:55 on Oct 28,2020
+# Start time: 19:40:23 on Nov 11,2020
 # Loading work.testbench
-# Loading work.prog_div
-# ** Note: $finish    : hw/prog_div/prog_div_tb.v(41)
-#    Time: 52377820 ns  Iteration: 1  Instance: /testbench
+# Loading work.nco
+# ** Note: $finish    : hw/nco/nco_tb.v(35)
+#    Time: 150000020 ns  Iteration: 1  Instance: /testbench
 # 1
-# Break in Module testbench at hw/prog_div/prog_div_tb.v line 41
+# Break in Module testbench at hw/nco/nco_tb.v line 35
 # 0 ps
-# 54996711 ns
+# 157500021 ns
 quit -sim
-# End time: 22:48:32 on Oct 28,2020, Elapsed time: 0:00:37
-# Errors: 0, Warnings: 1
+# End time: 19:42:26 on Nov 11,2020, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 2
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# Compile of nco.v failed with 1 errors.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 1 failed with 1 error.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# Compile of nco.v was successful.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 0 failed with no errors.
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:50:56 on Oct 28,2020
-# vlog -reportprogress 300 hw/one_hot_div/one_hot_div.v hw/one_hot_div/one_hot_div_tb.v 
-# -- Compiling module one_hot_div
+# Start time: 19:44:56 on Nov 11,2020
+# vlog -reportprogress 300 hw/nco/nco.v hw/nco/nco_tb.v 
+# -- Compiling module nco
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 22:50:57 on Oct 28,2020, Elapsed time: 0:00:01
+# End time: 19:44:56 on Nov 11,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim work.testbench 
-# Start time: 22:50:57 on Oct 28,2020
+# Start time: 19:44:56 on Nov 11,2020
 # Loading work.testbench
-# Loading work.one_hot_div
-# ** Note: $finish    : hw/one_hot_div/one_hot_div_tb.v(31)
-#    Time: 420 ns  Iteration: 1  Instance: /testbench
+# Loading work.nco
+# ** Note: $finish    : hw/nco/nco_tb.v(35)
+#    Time: 150000020 ns  Iteration: 1  Instance: /testbench
 # 1
-# Break in Module testbench at hw/one_hot_div/one_hot_div_tb.v line 31
+# Break in Module testbench at hw/nco/nco_tb.v line 35
 # 0 ps
-# 441 ns
+# 157500021 ns
 quit -sim
-# End time: 22:51:34 on Oct 28,2020, Elapsed time: 0:00:37
-# Errors: 0, Warnings: 1
+# End time: 19:49:33 on Nov 11,2020, Elapsed time: 0:04:37
+# Errors: 0, Warnings: 3
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# Compile of nco.v was successful.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 0 failed with no errors.
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:51:37 on Oct 28,2020
-# vlog -reportprogress 300 hw/const_div2/const_div.v hw/const_div2/const_div_tb.v 
-# -- Compiling module const_div
+# Start time: 19:59:07 on Nov 11,2020
+# vlog -reportprogress 300 hw/nco/nco.v hw/nco/nco_tb.v 
+# -- Compiling module nco
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 22:51:37 on Oct 28,2020, Elapsed time: 0:00:00
+# End time: 19:59:07 on Nov 11,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim work.testbench 
-# Start time: 22:51:37 on Oct 28,2020
+# Start time: 19:59:07 on Nov 11,2020
 # Loading work.testbench
-# Loading work.const_div
-# ** Note: $finish    : hw/const_div2/const_div_tb.v(31)
-#    Time: 620 ns  Iteration: 1  Instance: /testbench
+# Loading work.nco
+# ** Note: $finish    : hw/nco/nco_tb.v(35)
+#    Time: 150000020 ns  Iteration: 1  Instance: /testbench
 # 1
-# Break in Module testbench at hw/const_div2/const_div_tb.v line 31
+# Break in Module testbench at hw/nco/nco_tb.v line 35
 # 0 ps
-# 651 ns
+# 157500021 ns
 quit -sim
-# End time: 22:51:51 on Oct 28,2020, Elapsed time: 0:00:14
-# Errors: 0, Warnings: 1
+# End time: 20:27:36 on Nov 11,2020, Elapsed time: 0:28:29
+# Errors: 0, Warnings: 2
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# Compile of nco.v was successful.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 0 failed with no errors.
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:51:53 on Oct 28,2020
-# vlog -reportprogress 300 hw/const_div1/const_div.v hw/const_div1/const_div_tb.v 
-# -- Compiling module const_div
+# Start time: 20:27:47 on Nov 11,2020
+# vlog -reportprogress 300 hw/nco/nco.v hw/nco/nco_tb.v 
+# -- Compiling module nco
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 22:51:53 on Oct 28,2020, Elapsed time: 0:00:00
+# End time: 20:27:47 on Nov 11,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim work.testbench 
-# Start time: 22:51:53 on Oct 28,2020
+# Start time: 20:27:47 on Nov 11,2020
 # Loading work.testbench
-# Loading work.const_div
-# ** Note: $finish    : hw/const_div1/const_div_tb.v(31)
-#    Time: 620 ns  Iteration: 1  Instance: /testbench
+# Loading work.nco
+# ** Note: $finish    : hw/nco/nco_tb.v(35)
+#    Time: 150000020 ns  Iteration: 1  Instance: /testbench
 # 1
-# Break in Module testbench at hw/const_div1/const_div_tb.v line 31
+# Break in Module testbench at hw/nco/nco_tb.v line 35
 # 0 ps
-# 651 ns
+# 157500021 ns
 quit -sim
-# End time: 22:52:08 on Oct 28,2020, Elapsed time: 0:00:15
-# Errors: 0, Warnings: 1
+# End time: 20:28:31 on Nov 11,2020, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 2
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# Compile of nco.v was successful.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 0 failed with no errors.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# Compile of nco.v was successful.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:29:49 on Nov 11,2020
+# vlog -reportprogress 300 hw/nco/nco.v hw/nco/nco_tb.v 
+# -- Compiling module nco
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 20:29:49 on Nov 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 20:29:49 on Nov 11,2020
+# Loading work.testbench
+# Loading work.nco
+# ** Note: $finish    : hw/nco/nco_tb.v(35)
+#    Time: 30000020 ns  Iteration: 1  Instance: /testbench
+# 1
+# Break in Module testbench at hw/nco/nco_tb.v line 35
+# 0 ps
+# 31500021 ns
+quit -sim
+# End time: 20:31:03 on Nov 11,2020, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 3
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of const_div.v was successful.
+# Compile of const_div_tb.v was successful.
+# Compile of fm_transmitter.v was successful.
+# Compile of mypll.v was successful.
+# Compile of simple_uart_receiver.v was successful.
+# Compile of one_hot_div.v was successful.
+# Compile of one_hot_div_tb.v was successful.
+# Compile of prog_div.v was successful.
+# Compile of prog_div_tb.v was successful.
+# Compile of nco.v was successful.
+# Compile of nco_tb.v was successful.
+# 13 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:49:25 on Nov 11,2020
+# vlog -reportprogress 300 hw/nco/nco.v hw/nco/nco_tb.v 
+# -- Compiling module nco
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:49:25 on Nov 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 22:49:25 on Nov 11,2020
+# Loading work.testbench
+# Loading work.nco
+# ** Note: $finish    : hw/nco/nco_tb.v(35)
+#    Time: 30000020 ns  Iteration: 1  Instance: /testbench
+# 1
+# Break in Module testbench at hw/nco/nco_tb.v line 35
+# 0 ps
+# 31500021 ns
+quit -sim
+# End time: 22:50:45 on Nov 11,2020, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 4

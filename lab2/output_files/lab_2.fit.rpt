@@ -1,5 +1,5 @@
 Fitter report for lab_2
-Wed Oct 28 17:06:52 2020
+Thu Nov 12 10:17:32 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Wed Oct 28 17:06:52 2020       ;
+; Fitter Status                   ; Successful - Thu Nov 12 10:17:32 2020       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; lab_2                                       ;
 ; Top-level Entity Name           ; sin_gen                                     ;
@@ -2532,7 +2532,7 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "VGA_R[7]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_SYNC_N" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_VS" is assigned to location or region, but does not exist in design
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:10
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:11
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'lab_2.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
@@ -2550,7 +2550,7 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.21 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.23 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -2560,9 +2560,9 @@ Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments 
 Info (144001): Generated suppressed messages file C:/Users/don/Documents/KPI/Circuitry/lab2/output_files/lab_2.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 239 warnings
     Info: Peak virtual memory: 7338 megabytes
-    Info: Processing ended: Wed Oct 28 17:06:53 2020
-    Info: Elapsed time: 00:00:33
-    Info: Total CPU time (on all processors): 00:01:41
+    Info: Processing ended: Thu Nov 12 10:17:33 2020
+    Info: Elapsed time: 00:00:36
+    Info: Total CPU time (on all processors): 00:01:52
 
 
 +----------------------------+
