@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 dC:/Users/don/Documents/KPI/Circuitry/lab3_m
 vnco
-Z1 !s110 1605127765
+Z1 !s110 1605639985
 !i10b 1
-!s100 Ve:Te?k6mA:N;8V@;O69]2
+!s100 ]L[4a8:>nG0mj4AJjoA2D3
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IHXO]?jJk5lUJI];38]`0_2
+IL1__FN^zQzeRBHZU`dl:73
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1605127756
+w1605638072
 8hw/nco/nco.v
 Fhw/nco/nco.v
 !i122 0
-L0 1 46
+L0 1 44
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1605127765.000000
+Z5 !s108 1605639985.000000
 !s107 hw/nco/nco_tb.v|hw/nco/nco.v|
 Z6 !s90 -reportprogress|300|hw/nco/nco.v|hw/nco/nco_tb.v|
 !i113 1
@@ -34,16 +34,16 @@ Z7 tCvgOpt 0
 vtestbench
 R1
 !i10b 1
-!s100 c0[cYJ2Po?>0bAZe6;dVg1
+!s100 Ulh2iKQCHk10[bN8LYD6e0
 R2
-I:Fnigcb15a>zG@4J6bF6=2
+I04ed7FSfhcM4EET50diD@1
 R3
 R0
-w1605119381
+w1605639975
 8hw/nco/nco_tb.v
 Fhw/nco/nco_tb.v
 !i122 0
-L0 3 36
+L0 3 33
 R4
 r1
 !s85 0

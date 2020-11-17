@@ -2,6 +2,7 @@ module nco(CLOCK_50, KEY, SW, VGA_R, GPIO_0);
 
 input           CLOCK_50;
 input   [1:0]   KEY;
+//input   [31:0]   SW;
 input   [9:0]   SW;
 output  [9:0]   VGA_R;
 output		GPIO_0;			//output 
@@ -11,16 +12,12 @@ reg     [31:0]  phase;
 reg     [9:0]   dac_data;
 reg     [31:0]  freq_step;
 
-reg     [9:0]   cnt_ff;			//add
-
 wire    sys_clk     = CLOCK_50;
 wire    sys_rst_n   = KEY[1];
-wire    preload_cnt = ~|cnt_ff;		// check at 00 0000 0000 address
-//wire    preload_cnt = &cnt_ff;
+
 
 assign  VGA_R = dac_data; 
-assign  GPIO_0 = preload_cnt;   	//add
-assign	cnt_ff = phase[31:22];
+assign  GPIO_0 = phase[31];  
 
 initial $readmemh("hw/nco/sin_table_8bit.hex", sin_table_rom);
 
@@ -31,7 +28,8 @@ always @(posedge sys_clk, negedge sys_rst_n) begin
     if(~sys_rst_n) begin
         freq_step <= 0;
     end else begin
-        freq_step <= {14'd0, SW, 8'd0};   //for simplicity here we dont use synchronization
+//	freq_step <= SW;
+        freq_step[29:20] <= SW;   //for simplicity here we dont use synchronization
     end
 end
 
