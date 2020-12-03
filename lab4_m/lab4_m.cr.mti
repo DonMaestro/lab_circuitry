@@ -1,0 +1,113 @@
+C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_demo_1/const_div.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_demo_1/const_div.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module const_div
+
+Top level modules:
+	const_div
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_demo_1/dec_7seg.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_demo_1/dec_7seg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dec_7seg
+
+Top level modules:
+	dec_7seg
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_demo_1/dec_7seg_demo_tb.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_demo_1/dec_7seg_demo_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dec_7seg_demo_tb
+
+Top level modules:
+	dec_7seg_demo_tb
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock_my/counter.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock_my/counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_demo_0/dec_7seg_demo.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_demo_0/dec_7seg_demo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dec_7seg_demo
+
+Top level modules:
+	dec_7seg_demo
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_demo_1/dec_7seg_demo.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_demo_1/dec_7seg_demo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dec_7seg_demo
+
+Top level modules:
+	dec_7seg_demo
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_rtl/dec_7seg.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_rtl/dec_7seg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dec_7seg
+
+Top level modules:
+	dec_7seg
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock/counter.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock/counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock_my/clock.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock_my/clock.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clock
+
+Top level modules:
+	clock
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock/clock_tb.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock/clock_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clock_tb
+
+Top level modules:
+	clock_tb
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock/dec_7seg.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock/dec_7seg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dec_7seg
+
+Top level modules:
+	dec_7seg
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_demo_0/dec_7seg.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_demo_0/dec_7seg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dec_7seg
+
+Top level modules:
+	dec_7seg
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock/clock.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock/clock.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clock
+
+Top level modules:
+	clock
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_rtl/dec_7seg_tb.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/dec_7seg_rtl/dec_7seg_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dec_7seg_tb
+
+Top level modules:
+	dec_7seg_tb
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock_my/dec_7seg.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock_my/dec_7seg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dec_7seg
+
+Top level modules:
+	dec_7seg
+
+} {} {}} C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock_my/clock_tb.v {1 {vlog -work work -stats=none C:/Users/don/Documents/KPI/Circuitry/lab4_m/hw/clock_my/clock_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clock_tb
+
+Top level modules:
+	clock_tb
+
+} {} {}}

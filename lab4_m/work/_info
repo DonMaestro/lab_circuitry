@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/don/Documents/KPI/Circuitry/lab4_m
+vclock
+Z1 !s110 1606981786
+!i10b 1
+!s100 ;?CP;bO7Z6<J`km0VMC@X2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IGz6a:NC;I[Ca8XahEH;ga3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1606938125
+8hw/clock_my/clock.v
+Fhw/clock_my/clock.v
+!i122 0
+L0 1 146
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1606981786.000000
+!s107 hw/clock_my/clock_tb.v|hw/clock_my/clock.v|hw/clock_my/counter.v|hw/clock_my/dec_7seg.v|
+Z6 !s90 -reportprogress|300|hw/clock_my/dec_7seg.v|hw/clock_my/counter.v|hw/clock_my/clock.v|hw/clock_my/clock_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vclock_tb
+R1
+!i10b 1
+!s100 7e1AO:]ccg<PkjlDZf16_2
+R2
+IhGRgG[f>bV<UVP9zNPF631
+R3
+R0
+w1606937223
+8hw/clock_my/clock_tb.v
+Fhw/clock_my/clock_tb.v
+!i122 0
+L0 3 38
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 hw/clock_my/clock_tb.v|hw/clock_my/clock.v|hw/clock_my/counter.v|hw/clock_my/dec_7seg.v|
+R6
+!i113 1
+R7
+vcounter
+R1
+!i10b 1
+!s100 Y>MSDoS^99aWP?K;`^0ib2
+R2
+IS05JVS]mzmeF3]9@cESg;3
+R3
+R0
+w1606936637
+8hw/clock_my/counter.v
+Fhw/clock_my/counter.v
+!i122 0
+L0 1 42
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vdec_7seg
+R1
+!i10b 1
+!s100 D0KlNbm_BHdS`O<NLmEC[1
+R2
+I=0_zRL9XMGh?USn9[W1e02
+R3
+R0
+w1574117865
+8hw/clock_my/dec_7seg.v
+Fhw/clock_my/dec_7seg.v
+!i122 0
+L0 1 32
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7

@@ -1,0 +1,388 @@
+|clock
+CLOCK_50 => sys_clk.IN7
+KEY[0] => ~NO_FANOUT~
+KEY[1] => sys_rst_n.IN7
+HEX0[0] << dec_7seg:dec_sec_0.o_seg
+HEX0[1] << dec_7seg:dec_sec_0.o_seg
+HEX0[2] << dec_7seg:dec_sec_0.o_seg
+HEX0[3] << dec_7seg:dec_sec_0.o_seg
+HEX0[4] << dec_7seg:dec_sec_0.o_seg
+HEX0[5] << dec_7seg:dec_sec_0.o_seg
+HEX0[6] << dec_7seg:dec_sec_0.o_seg
+HEX1[0] << dec_7seg:dec_sec_1.o_seg
+HEX1[1] << dec_7seg:dec_sec_1.o_seg
+HEX1[2] << dec_7seg:dec_sec_1.o_seg
+HEX1[3] << dec_7seg:dec_sec_1.o_seg
+HEX1[4] << dec_7seg:dec_sec_1.o_seg
+HEX1[5] << dec_7seg:dec_sec_1.o_seg
+HEX1[6] << dec_7seg:dec_sec_1.o_seg
+HEX2[0] << dec_7seg:dec_min_0.o_seg
+HEX2[1] << dec_7seg:dec_min_0.o_seg
+HEX2[2] << dec_7seg:dec_min_0.o_seg
+HEX2[3] << dec_7seg:dec_min_0.o_seg
+HEX2[4] << dec_7seg:dec_min_0.o_seg
+HEX2[5] << dec_7seg:dec_min_0.o_seg
+HEX2[6] << dec_7seg:dec_min_0.o_seg
+HEX3[0] << dec_7seg:dec_min_1.o_seg
+HEX3[1] << dec_7seg:dec_min_1.o_seg
+HEX3[2] << dec_7seg:dec_min_1.o_seg
+HEX3[3] << dec_7seg:dec_min_1.o_seg
+HEX3[4] << dec_7seg:dec_min_1.o_seg
+HEX3[5] << dec_7seg:dec_min_1.o_seg
+HEX3[6] << dec_7seg:dec_min_1.o_seg
+HEX4[0] << dec_7seg:dec_hour_0.o_seg
+HEX4[1] << dec_7seg:dec_hour_0.o_seg
+HEX4[2] << dec_7seg:dec_hour_0.o_seg
+HEX4[3] << dec_7seg:dec_hour_0.o_seg
+HEX4[4] << dec_7seg:dec_hour_0.o_seg
+HEX4[5] << dec_7seg:dec_hour_0.o_seg
+HEX4[6] << dec_7seg:dec_hour_0.o_seg
+HEX5[0] << dec_7seg:dec_hour_1.o_seg
+HEX5[1] << dec_7seg:dec_hour_1.o_seg
+HEX5[2] << dec_7seg:dec_hour_1.o_seg
+HEX5[3] << dec_7seg:dec_hour_1.o_seg
+HEX5[4] << dec_7seg:dec_hour_1.o_seg
+HEX5[5] << dec_7seg:dec_hour_1.o_seg
+HEX5[6] << dec_7seg:dec_hour_1.o_seg
+
+
+|clock|counter:freq_div
+i_clk => cnt[0].CLK
+i_clk => cnt[1].CLK
+i_clk => cnt[2].CLK
+i_clk => cnt[3].CLK
+i_clk => cnt[4].CLK
+i_clk => cnt[5].CLK
+i_clk => cnt[6].CLK
+i_clk => cnt[7].CLK
+i_clk => cnt[8].CLK
+i_clk => cnt[9].CLK
+i_clk => cnt[10].CLK
+i_clk => cnt[11].CLK
+i_clk => cnt[12].CLK
+i_clk => cnt[13].CLK
+i_clk => cnt[14].CLK
+i_clk => cnt[15].CLK
+i_clk => cnt[16].CLK
+i_clk => cnt[17].CLK
+i_clk => cnt[18].CLK
+i_clk => cnt[19].CLK
+i_clk => cnt[20].CLK
+i_clk => cnt[21].CLK
+i_clk => cnt[22].CLK
+i_clk => cnt[23].CLK
+i_clk => cnt[24].CLK
+i_clk => cnt[25].CLK
+i_clk => o_tick~reg0.CLK
+i_rst_n => cnt[0].ACLR
+i_rst_n => cnt[1].ACLR
+i_rst_n => cnt[2].ACLR
+i_rst_n => cnt[3].ACLR
+i_rst_n => cnt[4].ACLR
+i_rst_n => cnt[5].ACLR
+i_rst_n => cnt[6].ACLR
+i_rst_n => cnt[7].ACLR
+i_rst_n => cnt[8].ACLR
+i_rst_n => cnt[9].ACLR
+i_rst_n => cnt[10].ACLR
+i_rst_n => cnt[11].ACLR
+i_rst_n => cnt[12].ACLR
+i_rst_n => cnt[13].ACLR
+i_rst_n => cnt[14].ACLR
+i_rst_n => cnt[15].ACLR
+i_rst_n => cnt[16].ACLR
+i_rst_n => cnt[17].ACLR
+i_rst_n => cnt[18].ACLR
+i_rst_n => cnt[19].ACLR
+i_rst_n => cnt[20].ACLR
+i_rst_n => cnt[21].ACLR
+i_rst_n => cnt[22].ACLR
+i_rst_n => cnt[23].ACLR
+i_rst_n => cnt[24].ACLR
+i_rst_n => cnt[25].ACLR
+i_rst_n => o_tick~reg0.ACLR
+i_srst => always1.IN1
+i_cnt_en => cnt_overflow.IN1
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+o_tick <= o_tick~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_data[0] <= cnt[0].DB_MAX_OUTPUT_PORT_TYPE
+o_data[1] <= cnt[1].DB_MAX_OUTPUT_PORT_TYPE
+o_data[2] <= cnt[2].DB_MAX_OUTPUT_PORT_TYPE
+o_data[3] <= cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+o_data[4] <= cnt[4].DB_MAX_OUTPUT_PORT_TYPE
+o_data[5] <= cnt[5].DB_MAX_OUTPUT_PORT_TYPE
+o_data[6] <= cnt[6].DB_MAX_OUTPUT_PORT_TYPE
+o_data[7] <= cnt[7].DB_MAX_OUTPUT_PORT_TYPE
+o_data[8] <= cnt[8].DB_MAX_OUTPUT_PORT_TYPE
+o_data[9] <= cnt[9].DB_MAX_OUTPUT_PORT_TYPE
+o_data[10] <= cnt[10].DB_MAX_OUTPUT_PORT_TYPE
+o_data[11] <= cnt[11].DB_MAX_OUTPUT_PORT_TYPE
+o_data[12] <= cnt[12].DB_MAX_OUTPUT_PORT_TYPE
+o_data[13] <= cnt[13].DB_MAX_OUTPUT_PORT_TYPE
+o_data[14] <= cnt[14].DB_MAX_OUTPUT_PORT_TYPE
+o_data[15] <= cnt[15].DB_MAX_OUTPUT_PORT_TYPE
+o_data[16] <= cnt[16].DB_MAX_OUTPUT_PORT_TYPE
+o_data[17] <= cnt[17].DB_MAX_OUTPUT_PORT_TYPE
+o_data[18] <= cnt[18].DB_MAX_OUTPUT_PORT_TYPE
+o_data[19] <= cnt[19].DB_MAX_OUTPUT_PORT_TYPE
+o_data[20] <= cnt[20].DB_MAX_OUTPUT_PORT_TYPE
+o_data[21] <= cnt[21].DB_MAX_OUTPUT_PORT_TYPE
+o_data[22] <= cnt[22].DB_MAX_OUTPUT_PORT_TYPE
+o_data[23] <= cnt[23].DB_MAX_OUTPUT_PORT_TYPE
+o_data[24] <= cnt[24].DB_MAX_OUTPUT_PORT_TYPE
+o_data[25] <= cnt[25].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clock|counter:sec_0
+i_clk => cnt[0].CLK
+i_clk => cnt[1].CLK
+i_clk => cnt[2].CLK
+i_clk => cnt[3].CLK
+i_clk => o_tick~reg0.CLK
+i_rst_n => cnt[0].ACLR
+i_rst_n => cnt[1].ACLR
+i_rst_n => cnt[2].ACLR
+i_rst_n => cnt[3].ACLR
+i_rst_n => o_tick~reg0.ACLR
+i_srst => always1.IN1
+i_cnt_en => cnt_overflow.IN1
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+o_tick <= o_tick~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_data[0] <= cnt[0].DB_MAX_OUTPUT_PORT_TYPE
+o_data[1] <= cnt[1].DB_MAX_OUTPUT_PORT_TYPE
+o_data[2] <= cnt[2].DB_MAX_OUTPUT_PORT_TYPE
+o_data[3] <= cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clock|counter:sec_1
+i_clk => cnt[0].CLK
+i_clk => cnt[1].CLK
+i_clk => cnt[2].CLK
+i_clk => cnt[3].CLK
+i_clk => o_tick~reg0.CLK
+i_rst_n => cnt[0].ACLR
+i_rst_n => cnt[1].ACLR
+i_rst_n => cnt[2].ACLR
+i_rst_n => cnt[3].ACLR
+i_rst_n => o_tick~reg0.ACLR
+i_srst => always1.IN1
+i_cnt_en => cnt_overflow.IN1
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+o_tick <= o_tick~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_data[0] <= cnt[0].DB_MAX_OUTPUT_PORT_TYPE
+o_data[1] <= cnt[1].DB_MAX_OUTPUT_PORT_TYPE
+o_data[2] <= cnt[2].DB_MAX_OUTPUT_PORT_TYPE
+o_data[3] <= cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clock|counter:min_0
+i_clk => cnt[0].CLK
+i_clk => cnt[1].CLK
+i_clk => cnt[2].CLK
+i_clk => cnt[3].CLK
+i_clk => o_tick~reg0.CLK
+i_rst_n => cnt[0].ACLR
+i_rst_n => cnt[1].ACLR
+i_rst_n => cnt[2].ACLR
+i_rst_n => cnt[3].ACLR
+i_rst_n => o_tick~reg0.ACLR
+i_srst => always1.IN1
+i_cnt_en => cnt_overflow.IN1
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+o_tick <= o_tick~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_data[0] <= cnt[0].DB_MAX_OUTPUT_PORT_TYPE
+o_data[1] <= cnt[1].DB_MAX_OUTPUT_PORT_TYPE
+o_data[2] <= cnt[2].DB_MAX_OUTPUT_PORT_TYPE
+o_data[3] <= cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clock|counter:min_1
+i_clk => cnt[0].CLK
+i_clk => cnt[1].CLK
+i_clk => cnt[2].CLK
+i_clk => cnt[3].CLK
+i_clk => o_tick~reg0.CLK
+i_rst_n => cnt[0].ACLR
+i_rst_n => cnt[1].ACLR
+i_rst_n => cnt[2].ACLR
+i_rst_n => cnt[3].ACLR
+i_rst_n => o_tick~reg0.ACLR
+i_srst => always1.IN1
+i_cnt_en => cnt_overflow.IN1
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+o_tick <= o_tick~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_data[0] <= cnt[0].DB_MAX_OUTPUT_PORT_TYPE
+o_data[1] <= cnt[1].DB_MAX_OUTPUT_PORT_TYPE
+o_data[2] <= cnt[2].DB_MAX_OUTPUT_PORT_TYPE
+o_data[3] <= cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clock|counter:hour_0
+i_clk => cnt[0].CLK
+i_clk => cnt[1].CLK
+i_clk => cnt[2].CLK
+i_clk => cnt[3].CLK
+i_clk => o_tick~reg0.CLK
+i_rst_n => cnt[0].ACLR
+i_rst_n => cnt[1].ACLR
+i_rst_n => cnt[2].ACLR
+i_rst_n => cnt[3].ACLR
+i_rst_n => o_tick~reg0.ACLR
+i_srst => always1.IN1
+i_cnt_en => cnt_overflow.IN1
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+o_tick <= o_tick~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_data[0] <= cnt[0].DB_MAX_OUTPUT_PORT_TYPE
+o_data[1] <= cnt[1].DB_MAX_OUTPUT_PORT_TYPE
+o_data[2] <= cnt[2].DB_MAX_OUTPUT_PORT_TYPE
+o_data[3] <= cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clock|counter:hour_1
+i_clk => cnt[0].CLK
+i_clk => cnt[1].CLK
+i_clk => cnt[2].CLK
+i_clk => cnt[3].CLK
+i_clk => o_tick~reg0.CLK
+i_rst_n => cnt[0].ACLR
+i_rst_n => cnt[1].ACLR
+i_rst_n => cnt[2].ACLR
+i_rst_n => cnt[3].ACLR
+i_rst_n => o_tick~reg0.ACLR
+i_srst => always1.IN1
+i_cnt_en => cnt_overflow.IN1
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+i_cnt_en => cnt.OUTPUTSELECT
+o_tick <= o_tick~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_data[0] <= cnt[0].DB_MAX_OUTPUT_PORT_TYPE
+o_data[1] <= cnt[1].DB_MAX_OUTPUT_PORT_TYPE
+o_data[2] <= cnt[2].DB_MAX_OUTPUT_PORT_TYPE
+o_data[3] <= cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clock|dec_7seg:dec_sec_0
+i_dat[0] => Decoder0.IN3
+i_dat[1] => Decoder0.IN2
+i_dat[2] => Decoder0.IN1
+i_dat[3] => Decoder0.IN0
+o_seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clock|dec_7seg:dec_sec_1
+i_dat[0] => Decoder0.IN3
+i_dat[1] => Decoder0.IN2
+i_dat[2] => Decoder0.IN1
+i_dat[3] => Decoder0.IN0
+o_seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clock|dec_7seg:dec_min_0
+i_dat[0] => Decoder0.IN3
+i_dat[1] => Decoder0.IN2
+i_dat[2] => Decoder0.IN1
+i_dat[3] => Decoder0.IN0
+o_seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clock|dec_7seg:dec_min_1
+i_dat[0] => Decoder0.IN3
+i_dat[1] => Decoder0.IN2
+i_dat[2] => Decoder0.IN1
+i_dat[3] => Decoder0.IN0
+o_seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clock|dec_7seg:dec_hour_0
+i_dat[0] => Decoder0.IN3
+i_dat[1] => Decoder0.IN2
+i_dat[2] => Decoder0.IN1
+i_dat[3] => Decoder0.IN0
+o_seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clock|dec_7seg:dec_hour_1
+i_dat[0] => Decoder0.IN3
+i_dat[1] => Decoder0.IN2
+i_dat[2] => Decoder0.IN1
+i_dat[3] => Decoder0.IN0
+o_seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+o_seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

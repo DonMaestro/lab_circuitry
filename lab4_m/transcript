@@ -1,0 +1,26 @@
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:49:46 on Dec 03,2020
+# vlog -reportprogress 300 hw/clock_my/dec_7seg.v hw/clock_my/counter.v hw/clock_my/clock.v hw/clock_my/clock_tb.v 
+# -- Compiling module dec_7seg
+# -- Compiling module counter
+# -- Compiling module clock
+# -- Compiling module clock_tb
+# 
+# Top level modules:
+# 	clock_tb
+# End time: 09:49:46 on Dec 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.clock_tb 
+# Start time: 09:49:46 on Dec 03,2020
+# Loading work.clock_tb
+# Loading work.clock
+# Loading work.counter
+# Loading work.dec_7seg
+# ** Note: $finish    : hw/clock_my/clock_tb.v(36)
+#    Time: 17280020 ns  Iteration: 1  Instance: /clock_tb
+# 1
+# Break in Module clock_tb at hw/clock_my/clock_tb.v line 36
+# 0 ps
+# 18144021 ns
+# End time: 12:05:38 on Dec 03,2020, Elapsed time: 2:15:52
+# Errors: 0, Warnings: 1
